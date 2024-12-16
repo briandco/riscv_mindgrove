@@ -1,0 +1,11 @@
+[package]
+name = "riscv-hal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = { version = "0.2.6", features = ["unproven"] } 
+nb = "1.1.0"
+riscv = { version = "0.12.1" }
+riscv-pac = { path = "../riscv_pac"}
+portable-atomic = { version = "1.9", default-features = false}
