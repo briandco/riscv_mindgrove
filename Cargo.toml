@@ -2,4 +2,4 @@
 [workspace]
 resolver = "2"
 members = ["riscv_pac", 
-"riscv-hal", "led_blink"]
+"riscv-hal"]
